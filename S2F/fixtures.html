@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function disable() {
+  document.getElementById("mySelect").disabled=true;
+}
+function enable() {
+  document.getElementById("mySelect").disabled=false;
+}
+</script>
+</head>
+<body>
+
+<form>
+<select id="mySelect">
+  <option>St Johnstone 3/8/19</option>
+  <option>Hearts 25/8/19</option>
+  <option>Kilmarnock 22/9/19</option>
+  <option>Ross County 19/10/19</option>
+  <option>St. Mirren 30/10/19</option>
+  <option>Aberdeen 21/12/19</option>
+  <option>Hamilton 2/2/19</option>
+  <option>Rangers 29/12/19</option>
+  <option>Livingston4/3/19</option>
+  <option>Motherwell 5/2/20</option>
+  <option>Hibernian 4/4/20</option>
+</select>
+<br><br>
+<input type="button" onclick="disable()" value="Hide Home fixtures">
+<input type="button" onclick="enable()" value="Enable Home fixtures">
+</form>
+
+</body>
+</html>
